@@ -2,7 +2,7 @@
 
 
 
-> ## Max Binary Heap: :octacat:
+> ## 🤯 Max Binary Heap: :octocat:
 
 ``` js
 class MaxBinaryHeap {
@@ -104,7 +104,7 @@ console.log(heap) // MaxBinaryHeap { values: [] }
 ![max_binary_heaps_extractMax](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structure/blob/master/max_binary_heaps_extractMax.png)
 ![max_binary_heaps_extractMax](max_binary_heaps_extractMax.gif)
 
-> ## Priority Queue: :octacat:
+> ## 🤯 Priority Queue: :octocat:
 ``` js
 class PriorityQueue {
     constructor(){
