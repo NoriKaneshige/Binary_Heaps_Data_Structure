@@ -2,8 +2,9 @@
 
 
 
-// Max Binary Heap
+> ## Max Binary Heap: :octacat:
 
+``` js
 class MaxBinaryHeap {
     constructor(){
         this.values = [];
@@ -91,11 +92,20 @@ heap.extractMax()
 heap.extractMax()
 heap.extractMax()
 console.log(heap) // MaxBinaryHeap { values: [] }
+```
 
 
+![max_binary_heaps](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps.png)
+![max_binary_heaps_vis](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps_vis.png)
+![max_binary_heaps_id_child](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps_id_child.png)
+![max_binary_heaps_id_parent](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps_id_parent.png)
+![max_binary_heaps_insert](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps_insert.png)
+![max_binary_heaps_insert](max_binary_heaps_insert.gif)
+![max_binary_heaps_extractMax](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/max_binary_heaps_extractMax.png)
+![max_binary_heaps_extractMax](max_binary_heaps_extractMax.gif)
 
-// Priority Queue 
-
+> ## Priority Queue: :octacat:
+``` js
 class PriorityQueue {
     constructor(){
         this.values = [];
@@ -180,5 +190,8 @@ console.log(ER.dequeue()) // Node { val: 'broken arm', priority: 2 }
 console.log(ER.dequeue()) // Node { val: 'glass in foot', priority: 3 }
 console.log(ER.dequeue()) // Node { val: 'high fever', priority: 4 }
 console.log(ER.dequeue()) // Node { val: 'common cold', priority: 5 }
-
+```
+![priority_queue](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/priority_queue.png)
+![priority_queue_vis](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/priority_queue_vis.png)
+![binary_heaps_bigO](https://github.com/NoriKaneshige/Binary_Heaps_Data_Structureh/blob/master/binary_heaps_bigO.png)
 
